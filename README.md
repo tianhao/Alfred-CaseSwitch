@@ -3,6 +3,7 @@ case:camel-underscore (ALT-SHIFT-COMMAND + X): fooBar(or FooBar) <-> foo_bar,
 case:upper-lower (ALT-SHIFT-COMMAND + S): FOOBAR <-> foobar
 
 **script(camel-underscore):**
+
 if {query} contains "_" char, to CamelCase, else to underscore.
 The first letter of the output is always lowercase.
 
@@ -15,6 +16,7 @@ fi
 ``` 
 
 **script(upper-lower):**
+
 if {query} contains any "A-Z" char, to lowercase, else to uppercase
 
 ```
