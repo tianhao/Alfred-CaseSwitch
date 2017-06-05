@@ -2,19 +2,19 @@
 
 ### FOOBAR <-> foobar
 
-Alfred command: case-upper-lower
+Alfred keyword: case-upper-lower
 
 shortcut key: ⌥ ⇧ ⌘ + U
 
 ### fooBar <-> foo_bar
 
-Alfred command: case-camel-underscore
+Alfred keyword: case-camel-underscore
 
 shortcut key: ⌥ ⇧ ⌘ + X
 
 ### foo-bar <-> fooBar
 
-Alfred command: case-snake-camel
+Alfred keyword: case-snake-camel
 
 shortcut key: ⌥ ⇧ ⌘ + S
 
