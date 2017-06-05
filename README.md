@@ -1,4 +1,4 @@
-**hotkey:**
+**HOTKEY:**
 
 case:camel-underscore (ALT-SHIFT-COMMAND + X): fooBar(or FooBar) <-> foo_bar
 
@@ -11,7 +11,7 @@ The first letter of the output is always lowercase.
 
 ```
 if [[ "{query}" =~ "_" ]]; then
-    echo -n "{query}" | perl -pe 's/(_)./uc($&)/ge;s/_//g'
+    echo -n "{query}" | perl -pe 's/^([A-Z]+)/\L$1/g' |perl -pe 's/(_)./uc($&)/ge;s/_//g'
 else
     echo -n "{query}" | perl -pe 's/^([A-Z]+)/\L$1/g' | perl -pe 's/([a-z0-9])([A-Z]+)/$1_\L$2/g'
 fi
