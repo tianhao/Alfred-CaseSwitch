@@ -1,18 +1,18 @@
 ## Usage
 
-### FOOBAR <-> foobar
+### FOOBAR ⇌ foobar
 
 Alfred keyword: case-upper-lower
 
 shortcut key: ⌥ ⇧ ⌘ + U
 
-### fooBar <-> foo_bar
+### fooBar ⇌ foo_bar
 
 Alfred keyword: case-camel-underscore
 
 shortcut key: ⌥ ⇧ ⌘ + X
 
-### foo-bar <-> fooBar
+### foo-bar ⇌ fooBar
 
 Alfred keyword: case-snake-camel
 
@@ -61,6 +61,6 @@ if [[ "{query}" =~ "-" ]]; then
 else
     echo -n "{query}" | perl -pe 's/^([A-Z]+)/\L$1/g' | perl -pe 's/([a-z0-9])([A-Z]+)/$1-\L$2/g'
 fi
-``` 
+```
 
 
