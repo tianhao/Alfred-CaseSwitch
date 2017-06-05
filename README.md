@@ -1,5 +1,7 @@
 **hotkey:**
-case:camel-underscore (ALT-SHIFT-COMMAND + X): fooBar(or FooBar) <-> foo_bar, 
+
+case:camel-underscore (ALT-SHIFT-COMMAND + X): fooBar(or FooBar) <-> foo_bar
+
 case:upper-lower (ALT-SHIFT-COMMAND + S): FOOBAR <-> foobar
 
 **script(camel-underscore):**
